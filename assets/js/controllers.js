@@ -1,15 +1,15 @@
-'use strict';
+(function(){
+  /**
+   * Controllers
+   *
+   * @description Controllers for the frontend
+   */
 
-/**
- * Controllers
- *
- * @description Controllers for the frontend
- */
-
-angular.module('myApp.controllers', [])
-.controller('View1Controller', [function() {
-  // TODO List all the models here
-}])
-.controller('View2Controller', [function() {
-  // TODO List the other models here
-}]);
+  angular.module('myApp')
+  .controller('View1Controller', ['$scope',function($scope) {
+    // TODO List all the models here
+  }])
+  .controller('View2Controller', ['$scope',function($scope) {
+    // TODO List the other models here
+  }]);
+})();
